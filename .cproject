@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="com.infineon.aurix.buildsystem.managed.configuration.binary.761602536">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.infineon.aurix.buildsystem.managed.configuration.binary.761602536" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="com.tasking.managedbuilder.TASKING_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="com.infineon.aurix.buildsystem.managed.TaskingErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="${ProjName}" buildArtefactType="com.infineon.aurix.buildsystem.managed.buildArtefactType.elf" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.infineon.aurix.buildsystem.managed.buildArtefactType.elf,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="com.infineon.aurix.buildsystem.managed.configuration.binary.761602536" name="Debug" parent="com.infineon.aurix.buildsystem.managed.configuration.binary">
+                    					
+                    <folderInfo id="com.infineon.aurix.buildsystem.managed.configuration.binary.761602536." name="/" resourcePath="">
+                        						
+                        <toolChain id="com.infineon.aurix.buildsystem.managed.toolChain.tasking.exe.binary.2114724952" name="AURIX Toolchain" superClass="com.infineon.aurix.buildsystem.managed.toolChain.tasking.exe.binary">
+                            							
+                            <option id="com.tasking.ctc.cpu.42871312" name="Processor" superClass="com.tasking.ctc.cpu" useByScannerDiscovery="false" value="tc26xb" valueType="string"/>
+                            							
+                            <option id="com.tasking.ctc.package.986079276" name="Device package" superClass="com.tasking.ctc.package" useByScannerDiscovery="false" value="bga292" valueType="string"/>
+                            							
+                            <targetPlatform archList="all" binaryParser="com.tasking.managedbuilder.TASKING_ELF" id="com.infineon.aurix.buildsystem.managed.tasking.targetPlatform.1438190867" isAbstract="false" osList="all" superClass="com.infineon.aurix.buildsystem.managed.tasking.targetPlatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/HITSIC_TC264DA_ADS}/Debug" id="com.infineon.aurix.buildsystem.managed.tasking.builder.398997848" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="com.infineon.aurix.buildsystem.managed.tasking.builder"/>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.debug.524922275" name="TASKING C/C++ Compiler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.debug">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include.327837199" name="Include paths" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include" useByScannerDiscovery="false" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Infra/Platform/Tricore/Compilers&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Multican/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Infra/Platform&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Cif/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Hssl/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Cpu/Trap&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Service/CpuGeneric/If/Ccu6If&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Dsadc/Dsadc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Port&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Stm/Timer&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Dts/Dts&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Eth&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Flash&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Vadc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Msc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Qspi/SpiMaster&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Scu/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Service/CpuGeneric/SysSe/Comm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Service/CpuGeneric/SysSe/Math&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Infra/Platform/Tricore&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Gtm/Trig&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Gtm/Tim&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Ccu6/TimerWithTrigger&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Emem&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Mtu&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Infra&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Fft&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/I2c/I2c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Asclin/Asc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Service/CpuGeneric/SysSe&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Flash/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Service/CpuGeneric/If&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Psi5&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Cpu&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Fce/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Stm/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Msc/Msc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Vadc/Adc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Asclin&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Gtm/Tom/Pwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Gtm/Atom&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Port/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Psi5/Psi5&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Eray&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Qspi/SpiSlave&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Ccu6/Icu&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Cpu/CStart&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Hssl&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Cif&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Eth/Phy_Pef7071&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Hssl/Hssl&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Iom/Driver&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Multican/Can&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Psi5s/Psi5s&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Fft/Fft&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Ccu6/PwmHl&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Iom/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/_Lib&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Gtm/Tom/Timer&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Sent&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Eray/Eray&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Gpt12/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Dma&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Fce/Crc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Qspi&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Infra/Sfr&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Infra/Sfr/TC26B&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Service/CpuGeneric/SysSe/Bsp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Service/CpuGeneric/SysSe/General&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Cpu/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Dts&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Src&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Dma/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Cif/Cam&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Src/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Asclin/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/I2c/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Configurations&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/_Lib/DataHandling&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Sent/Sent&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Ccu6/Timer&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Psi5/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Psi5s&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Emem/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Ccu6/PwmBc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Iom&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Ccu6/TPwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Service/CpuGeneric&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Multican&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Mtu/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Infra/Sfr/TC26B/_Reg&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Gtm/Tom/PwmHl&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Dma/Dma&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Gtm/Atom/Timer&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Ccu6/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Service/CpuGeneric/SysSe/Time&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Dsadc/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Cpu/Irq&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Gtm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Ccu6&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Gpt12/IncrEnc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Psi5s/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Scu&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/_Lib/InternalMux&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Stm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Dsadc/Rdc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Vadc/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Dts/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Service&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Eth/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Smu&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/_PinMap&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Asclin/Lin&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Service/CpuGeneric/StdIf&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Dsadc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Fce&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Gtm/Atom/PwmHl&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Qspi/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Gtm/Tom&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Gtm/Tim/In&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Msc/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Configurations/Debug&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Fft/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Gtm/Atom/Pwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/Service/CpuGeneric/_Utilities&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Gtm/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Smu/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/I2c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/source&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Asclin/Spi&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Eray/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Port/Io&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/_Impl&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Libraries/iLLD/TC26B/Tricore/Sent/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SmartCar&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols.2113988304" name="Defined symbols" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols" useByScannerDiscovery="false" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="__CPU__=tc26xb"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp.621009454" name="C++" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp"/>
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.1704495586" name="C" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.494471015" name="TASKING Assembler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking">
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.input.403704117" superClass="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking.1366809801" name="TASKING Linker" superClass="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking"/>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.printsize.tasking.957439842" name="Print Size" superClass="com.infineon.aurix.buildsystem.managed.tool.printsize.tasking"/>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding="Libraries/iLLD/TC26B/Tricore/Dts|Libraries/iLLD/TC26B/Tricore/Ccu6/PwmHl|Libraries/iLLD/TC26B/Tricore/Hssl|Libraries/iLLD/TC26B/Tricore/Dsadc/Rdc|Libraries/iLLD/TC26B/Tricore/Msc/Msc|Libraries/iLLD/TC26B/Tricore/Ccu6/TPwm|Libraries/iLLD/TC26B/Tricore/Asclin/Lin|Libraries/iLLD/TC26B/Tricore/Eth/Phy_Pef7071|Libraries/iLLD/TC26B/Tricore/Sent|Libraries/iLLD/TC26B/Tricore/Ccu6/Icu|Libraries/iLLD/TC26B/Tricore/Gtm/Tom/Pwm|Libraries/iLLD/TC26B/Tricore/Fce/Std|Libraries/iLLD/TC26B/Tricore/Eray|Libraries/iLLD/TC26B/Tricore/Fce/Crc|Libraries/iLLD/TC26B/Tricore/Gtm/Tom/Timer|Libraries/iLLD/TC26B/Tricore/Dsadc/Std|Libraries/iLLD/TC26B/Tricore/Psi5s/Psi5s|Libraries/iLLD/TC26B/Tricore/Eray/Std|Libraries/iLLD/TC26B/Tricore/Fft|Libraries/iLLD/TC26B/Tricore/Dsadc/Dsadc|Libraries/iLLD/TC26B/Tricore/I2c/I2c|Libraries/iLLD/TC26B/Tricore/Iom/Driver|Libraries/iLLD/TC26B/Tricore/Iom|Libraries/iLLD/TC26B/Tricore/Asclin/Spi|Libraries/iLLD/TC26B/Tricore/Sent/Std|Libraries/iLLD/TC26B/Tricore/_Lib/InternalMux|Libraries/iLLD/TC26B/Tricore/Eray/Eray|Libraries/iLLD/TC26B/Tricore/Gtm/Tim/In|Libraries/iLLD/TC26B/Tricore/Multican|Libraries/iLLD/TC26B/Tricore/Cif/Std|Libraries/iLLD/TC26B/Tricore/Eth|Libraries/iLLD/TC26B/Tricore/Ccu6/TimerWithTrigger|Libraries/iLLD/TC26B/Tricore/Eth/Std|Libraries/Service/CpuGeneric/SysSe/Time|Libraries/iLLD/TC26B/Tricore/Fce|Libraries/iLLD/TC26B/Tricore/Ccu6/PwmBc|Libraries/iLLD/TC26B/Tricore/Emem/Std|Libraries/iLLD/TC26B/Tricore/Dts/Dts|Libraries/iLLD/TC26B/Tricore/Dts/Std|Libraries/iLLD/TC26B/Tricore/Smu/Std|Libraries/iLLD/TC26B/Tricore/_Build|Libraries/iLLD/TC26B/Tricore/Smu|Libraries/iLLD/TC26B/Tricore/Gtm/Atom/PwmHl|Libraries/iLLD/TC26B/Tricore/I2c|Libraries/iLLD/TC26B/Tricore/Hssl/Std|Libraries/iLLD/TC26B/Tricore/Gtm/Tom|Libraries/iLLD/TC26B/Tricore/Cif/Cam|Libraries/Service/CpuGeneric/SysSe/General|Libraries/iLLD/TC26B/Tricore/Gtm/Trig|Libraries/iLLD/TC26B/Tricore/Msc|Libraries/iLLD/TC26B/Tricore/I2c/Std|Libraries/iLLD/TC26B/Tricore/Multican/Can|Libraries/iLLD/TC26B/Tricore/Dsadc|Libraries/iLLD/TC26B/Tricore/Psi5|Libraries/iLLD/TC26B/Tricore/Hssl/Hssl|Libraries/iLLD/TC26B/Tricore/Psi5s/Std|Libraries/Service/CpuGeneric/SysSe/Comm|Libraries/Service/CpuGeneric/SysSe/Math|Libraries/iLLD/TC26B/Tricore/Sent/Sent|Libraries/iLLD/TC26B/Tricore/Fft/Std|Libraries/iLLD/TC26B/Tricore/Gtm/Atom/Timer|Libraries/iLLD/TC26B/Tricore/Multican/Std|Libraries/iLLD/TC26B/Tricore/Iom/Std|Libraries/iLLD/TC26B/Tricore/Fft/Fft|Libraries/iLLD/TC26B/Tricore/Psi5/Std|Libraries/iLLD/TC26B/Tricore/Msc/Std|Libraries/iLLD/TC26B/Tricore/Stm/Timer|Libraries/iLLD/TC26B/Tricore/Qspi/SpiSlave|Libraries/iLLD/TC26B/Tricore/Cif|Libraries/iLLD/TC26B/Tricore/Emem|Libraries/iLLD/TC26B/Tricore/Psi5s|Libraries/iLLD/TC26B/Tricore/Gtm/Tom/PwmHl|Libraries/iLLD/TC26B/Tricore/Gtm/Tim|Libraries/iLLD/TC26B/Tricore/Psi5/Psi5" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="com.infineon.aurix.buildsystem.managed.configuration.binary.release.1986505378">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.infineon.aurix.buildsystem.managed.configuration.binary.release.1986505378" moduleId="org.eclipse.cdt.core.settings" name="Release">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="com.tasking.managedbuilder.TASKING_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="com.infineon.aurix.buildsystem.managed.TaskingErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="${ProjName}" buildArtefactType="com.infineon.aurix.buildsystem.managed.buildArtefactType.elf" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.infineon.aurix.buildsystem.managed.buildArtefactType.elf,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="" id="com.infineon.aurix.buildsystem.managed.configuration.binary.release.1986505378" name="Release" parent="com.infineon.aurix.buildsystem.managed.configuration.binary.release">
+                    					
+                    <folderInfo id="com.infineon.aurix.buildsystem.managed.configuration.binary.release.1986505378." name="/" resourcePath="">
+                        						
+                        <toolChain id="com.infineon.aurix.buildsystem.managed.toolChain.tasking.exe.binary.release.1832356759" name="AURIX Toolchain" superClass="com.infineon.aurix.buildsystem.managed.toolChain.tasking.exe.binary.release">
+                            							
+                            <option id="com.tasking.ctc.cpu.2039542493" name="Processor" superClass="com.tasking.ctc.cpu" value="tc26xb" valueType="string"/>
+                            							
+                            <option id="com.tasking.ctc.package.1309959123" name="Device package" superClass="com.tasking.ctc.package" value="bga292" valueType="string"/>
+                            							
+                            <targetPlatform archList="all" binaryParser="com.tasking.managedbuilder.TASKING_ELF" id="com.infineon.aurix.buildsystem.managed.tasking.targetPlatform.1419845345" isAbstract="false" osList="all" superClass="com.infineon.aurix.buildsystem.managed.tasking.targetPlatform"/>
+                            							
+                            <builder buildPath="${workspace_loc:/HITSIC_TC264DA_ADS}/Release" id="com.infineon.aurix.buildsystem.managed.tasking.builder.1825818640" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="com.infineon.aurix.buildsystem.managed.tasking.builder"/>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.release.55823227" name="TASKING C/C++ Compiler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.release">
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include.489711404" name="Include paths" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Ccu6/PwmHl&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Cpu&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Flash&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Sent/Sent&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Ccu6/TPwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Eray/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/I2c/I2c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Port/Io&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Gtm/Trig&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Infra/Platform/Tricore&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Eth&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Gtm/Atom/Timer&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Gtm/Tim&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Gtm/Tom/Timer&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Smu/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Cpu/Trap&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Asclin/Asc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Service&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Scu/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/_Lib&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Infra/Sfr/TC26B&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Hssl&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Qspi&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Cpu/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Msc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Sent&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Dsadc/Rdc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/I2c&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/_Lib/InternalMux&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Service/CpuGeneric/SysSe/General&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Dsadc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Vadc/Adc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Eray&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Dts/Dts&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Gpt12/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Psi5s/Psi5s&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Gpt12&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Service/CpuGeneric/SysSe/Bsp&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Port&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Service/CpuGeneric/If&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Qspi/SpiMaster&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Psi5/Psi5&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Gpt12/IncrEnc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Iom/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Smu&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Infra/Sfr&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Service/CpuGeneric/SysSe/Comm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Service/CpuGeneric/SysSe/Math&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Msc/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Infra/Sfr/TC26B/_Reg&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Dsadc/Dsadc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Ccu6/Icu&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Fft/Fft&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Multican/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Ccu6/Timer&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/_Impl&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Cpu/CStart&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Cpu/Irq&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Port/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Infra/Platform&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Fce&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Eth/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Asclin/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Fce/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Service/CpuGeneric/StdIf&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Cif/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Dts/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Stm/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Gtm/Atom&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Psi5s/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Vadc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Stm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/_Lib/DataHandling&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Psi5s&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Scu&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Service/CpuGeneric/SysSe/Time&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Ccu6/TimerWithTrigger&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Eth/Phy_Pef7071&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Service/CpuGeneric&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Emem/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Gtm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Multican&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Psi5&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Gtm/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Psi5/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Service/CpuGeneric/If/Ccu6If&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Emem&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Gtm/Tom/Pwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Stm/Timer&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Iom/Driver&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Iom&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Infra&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Gtm/Atom/PwmHl&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Gtm/Atom/Pwm&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Eray/Eray&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Cif/Cam&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Fft/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Asclin&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Dma&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Vadc/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/_PinMap&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/I2c/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Src/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Ccu6/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Dma/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Gtm/Tom/PwmHl&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Qspi/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Src&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Dts&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Configurations&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Gtm/Tom&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Ccu6/PwmBc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Gtm/Tim/In&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Service/CpuGeneric/SysSe&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Qspi/SpiSlave&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Hssl/Hssl&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Infra/Platform/Tricore/Compilers&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Fce/Crc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Asclin/Spi&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Multican/Can&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Dsadc/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Flash/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Ccu6&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Cif&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Sent/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Hssl/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Mtu/Std&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Fft&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/Service/CpuGeneric/_Utilities&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Asclin/Lin&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Msc/Msc&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Mtu&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${ProjDirPath}/HITSIC_TC264DA_ADS/Libraries/iLLD/TC26B/Tricore/Dma/Dma&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols.357916400" name="Defined symbols" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="__CPU__=tc26xb"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp.547598980" name="C++" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp"/>
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.784847435" name="C" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.1584119217" name="TASKING Assembler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking">
+                                								
+                                <inputType id="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.input.1087354291" superClass="com.infineon.aurix.buildsystem.managed.tool.c.assembler.tasking.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking.748712705" name="TASKING Linker" superClass="com.infineon.aurix.buildsystem.managed.tool.c.linker.tasking"/>
+                            							
+                            <tool id="com.infineon.aurix.buildsystem.managed.tool.printsize.tasking.110515063" name="Print Size" superClass="com.infineon.aurix.buildsystem.managed.tool.printsize.tasking"/>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="HITSIC_TC264DA_ADS.com.infineon.aurix.buildsystem.managed.projectType.979519047" name="AURIX Project" projectType="com.infineon.aurix.buildsystem.managed.projectType"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+        		
+        <project-mappings>
+            			
+            <content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cHeader" language="com.tasking.dbg.ctc.clanguage"/>
+            			
+            <content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cSource" language="com.tasking.dbg.ctc.clanguage"/>
+            			
+            <content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxHeader" language="com.tasking.dbg.ctc.cpplanguage"/>
+            			
+            <content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxSource" language="com.tasking.dbg.ctc.cpplanguage"/>
+            		
+        </project-mappings>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="refreshScope"/>
+    	
+    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+    
+</cproject>
