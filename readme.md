@@ -69,4 +69,6 @@ TC264 是双核单片机，但是暂时还没用起来，只用到CPU0。 `Cpu0_
 
 ## 四、视频演示
 
-见 `菜单操作演示.mp4` 文件。
+点击👇跳转菜单功能演示视频👇
+
+[![image-20250816214822608](readme.assets/image-20250816214822608.png)](https://www.bilibili.com/video/BV1rFYBzkEc7)
